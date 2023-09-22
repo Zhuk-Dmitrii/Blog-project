@@ -1,0 +1,83 @@
+.sign-in__container {
+   background-color: #F3F3F3;
+   height: 100%;
+   padding: 40px 12px 0 12px;
+   flex-grow: 1;
+}
+
+.sign-in__link-home a {
+   text-decoration: none;
+   color: #313037;
+}
+
+.sign-in__link-home a:hover {
+   text-decoration: underline;
+   font-weight: 700;
+}
+
+.sign-in__title {
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 80px;
+   margin-top: 15px;
+   margin-bottom: 0;
+}
+
+.sign-in__content {
+   width: 50%;
+   min-height: 200px;
+   margin: 30px auto;
+   padding: 40px;
+   border: 1px solid #DADADA;
+}
+
+.sign-in__form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.sign-in__form label {
+   font-weight: 600;
+}
+
+.sign-in__form input {
+   border: none;
+   line-height: 36px;
+}
+
+.sign-in__form input[type="email"] {
+   margin-bottom: 30px;
+}
+
+.sign-in__link-forgot-password {
+   margin-top: 5px;
+}
+
+.sign-in__link-forgot-password a {
+   text-decoration: none;
+   color: #313037;
+}
+
+.sign-in__link-forgot-password a:hover {
+   text-decoration: underline;
+}
+
+.sign-in__form-submit {
+   width: 100%;
+   margin-top: 30px;
+}
+
+.sign-in__link-sign-up {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.sign-in__link-sign-up a {
+   text-decoration: none;
+   color: #2231AA;
+}
+
+.sign-in__link-sign-up a:hover {
+   text-decoration: underline;
+}

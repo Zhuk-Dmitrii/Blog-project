@@ -1,0 +1,20 @@
+.header__change-language {
+   display: flex;
+   align-items: center;
+   padding: 5px;
+
+   .change-language_en {
+      color: black;
+      margin-right: 5px;
+      border: black solid 1px;
+      width: 40px;
+      height: 40px;
+   }
+
+   .change-language_ru {
+      color: black;
+      border: black solid 1px;
+      width: 40px;
+      height: 40px;
+   }
+}
